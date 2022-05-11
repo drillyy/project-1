@@ -1,0 +1,90 @@
+.App {
+  background-color: #23252c;
+  /* height: 100vh; */
+  font-family: "Quicksand", sans-serif;
+}
+
+main {
+  background-color: #23252c;
+  padding: 0.25em;
+}
+
+.card {
+  width: 28%;
+  align-items: center;
+  margin: auto;
+  background-color: #1a1b21;
+  border-radius: 1em;
+}
+
+.profile-picture {
+  width: 100%;
+  border-radius: 1em 1em 0 0;
+}
+
+.name {
+  color: white;
+  margin: 0.2em;
+}
+
+.title {
+  color: #f3bf99;
+  margin: 0;
+  font-weight: 400;
+}
+
+h2 {
+  color: #f5f5f5;
+  margin: 0.5em;
+  text-align: left;
+}
+
+h4 {
+    margin: 0.5em;
+}
+
+.website {
+  color: #f5f5f5;
+}
+
+p {
+  color: #dcdcdc;
+  margin: 0.5em;
+  font-weight: 300;
+  text-align: justify;
+}
+
+button {
+  border: none;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+  border-radius: 6px;
+  width: 115px;
+  height: 40px;
+  margin: 5px 15px;
+}
+
+.button--email {
+  background-color: white;
+  color: #374151;
+}
+
+.button--linkedin {
+  background-color: #5093e2;
+  color: white;
+}
+
+.button--icon {
+    align-items: center;
+    width: 15px;
+}
+
+.socials {
+    margin-top: 1em;
+    background-color: #161619;
+    border-radius: 0 0 1em 1em;
+}
+
+.socials > img {
+    margin: 1em;
+    width: 30px;
+}
